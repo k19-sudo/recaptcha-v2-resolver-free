@@ -1,0 +1,45 @@
+{
+  "name": "recaptche-v2-resolver-free",
+  "version": "1.0.0",
+  "description": "100% free and local reCaptche v2 resolver library written in Typescript.",
+  "keywords": [
+    "recaptche",
+    "recaptche-v2",
+    "recaptche-resolver"
+  ],
+  "homepage": "https://github.com/k19-sudo/recaptcha-v2-resolver-free#readme",
+  "bugs": {
+    "url": "https://github.com/k19-sudo/recaptcha-v2-resolver-free/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k19-sudo/recaptcha-v2-resolver-free.git"
+  },
+  "license": "ISC",
+  "author": "k19-sudo (https://github.com/k19-sudo)",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@playwright/test": "^1.58.2",
+    "@xenova/transformers": "^2.17.2",
+    "fluent-ffmpeg": "^2.1.3",
+    "playwright": "^1.58.2",
+    "wavefile": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/fluent-ffmpeg": "^2.1.28"
+  },
+  "peerDependencies": {
+    "typescript": "^5",
+    "playwright": "^1.58.2"
+  },
+  "module": "index.ts"
+}
